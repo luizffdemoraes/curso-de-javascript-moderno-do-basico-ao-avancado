@@ -4,18 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu HTML</title>
+    <style>
+        h1 {
+            background: red;
+        }
+        p {
+            background: blue;
+        }
+        #cabecalho-dois{
+            background: purple;
+        }
+        .fundo-vermelho {
+            background: red !important;
+        }
+        .bold {
+            color: pink;
+        }
+    </style>
 </head>
 <body>
-    <h1>
+    <h1 id="cabecalho-um" class="fundo-vermelho border-esquerdo">
         Meu HTML
     </h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aperiam, quisquam accusamus cupiditate natus saepe neque quidem ipsam ea illo necessitatibus architecto consectetur laudantium sint provident unde perferendis vel voluptas!
-    </p>
-    <span>Luiz</span><br>
-    <span>Luiz</span><br>
-    <span>Luiz</span><br>
-    <span>Luiz</span><br>
-    <span>Luiz</span><br>
+    <h1 id="cabecalho-dois" class="fundo-vermelho">
+        Meu HTML
+    </h1>
+    <p>Um texto <b class="bold">qualquer.</b></p>
 </body>
 </html>
