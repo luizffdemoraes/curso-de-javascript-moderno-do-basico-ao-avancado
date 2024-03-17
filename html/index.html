@@ -3,37 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu HTML</title>
+    <title>Document</title>
     <style>
-        .img-in-text {
-            width: 50px;
-            height: 40px;
+        * {
+            margin: 0;
+            padding: 0;
         }
-        .vermelho {
-            font-size: 24px;
-            color: red;
+
+        body {
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/d85ca082-cdb9-46d9-b342-ece2fb14d34d/BR-pt-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+            background-size: cover;
+            background-position: top center;
+        }
+
+        #heading {
+            background: rgb(0, 0, 0, 0.5);
+        }
+        #heading div {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+        #heading .h1 {
+            padding: 15px 0;
+            font-size: 20px;
+            text-transform:
+            uppercase;
+            
+        }
+        #heading a {
+            color: #fff;
+            text-decoration: none;
+            font-family: sans-serif;
         }
     </style>
 </head>
 <body>
-    <h1 style="background: red;">Cabeçalho</h1>
-    <h1>Cabeçalho</h1>
-    <p><b>Lorem</b> <strong>ipsum</strong> <i>dolor</i>  <em>sit</em> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/strong" target="_blank">amet</a> consectetur, <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/strong" target="_blank"><img class="img-in-text" src="https://live.mdnplay.dev/pt-BR/docs/Web/CSS/object-fit/mdn_logo_only_color.png" alt="logo da mdn"></a> <del>adipisicing</del> <ins>elit</ins>. <s>Doloremque</s> <u>libero</u> <small>maxime</small> accusantium 2<sup>2</sup> H<sub>2</sub>O earum consequuntur <br> eligendi <q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/strong">dicta molestiae blanditiis.</q> Enim ullam perferendis magni nisi quam rerum et quasi aliquid autem?
+    <header id="heading">
+        <div>
+        <h1 class="h1">
+         <a href="#">
+            Netflix
+        </h1>
 
-        <hr>
+        <h2 class="h1">
+            <a href="#">
+               Netflix
+        </h2>
+    </div>
+    </header>
 
-        <blockquote>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum veniam mollitia, voluptate quisquam maiores <code>console.log</code> voluptates fuga ipsum accusamus provident est enim eius error nulla deserunt amet fugit, ut, quas facilis.
-        </blockquote>
-    </p>
-    <hr>
-    <pre>
-    for (var i = 0; ; i++) {
-        console.log(i);
-        if (i > 3) break;
-        // more statements
-      }
-    </pre>
-    <p><span class="vermelho">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugit voluptas est pariatur fuga <span class="vermelho">quisquam iure officiis perferendis culpa nihil beatae, repellat facilis accusamus aut saepe</span> obcaecati. Perspiciatis, earum laboriosam.</p>
+    <!-- <div style="width: 180px; height: 120px; background: red;">
+        <div style="width: 60px; height: 60px; background: yellow; float: left;"></div>
+        <div style="width: 60px; height: 60px; background: blue; float: left;"></div>
+        <div style="width: 120px; height: 60px; background: purple; float: left; text-align: center;">
+        <p style="width: 20px; height: 20px; background: darkcyan;"></p>
+        </div>
+        <div style="width: 60px; height: 60px; background: turquoise; float: left"></div>
+    </div> -->
+    
 </body>
 </html>
